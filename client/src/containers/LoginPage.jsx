@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of useHistory
-import './loginSignUp.scss'; // Import the same SCSS file as SignUp for consistent styling
+import '../assets/styles/loginSignUp.scss'; // Import the same SCSS file as SignUp for consistent styling
 
 const Login = () => {
   const [email, setEmail] = useState('');

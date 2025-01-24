@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate instead of useHistory
 
-import './loginSignUp.scss';
+import '../assets/styles/loginSignUp.scss';
 
 const SignUp = () => {
   const [email, setEmail] = useState('');
